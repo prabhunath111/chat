@@ -175,6 +175,7 @@ class _HomePageState extends State<HomePage> {
       body: Stack(
         children: <Widget>[
           ListView.builder(
+              controller: _scrollController,
               itemCount: msglist.length,
               itemBuilder: (context, index) {
                 return Card(
