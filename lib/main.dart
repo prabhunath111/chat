@@ -52,7 +52,8 @@ void main() => runApp(MaterialApp(
   home: HomePage(),
 ));
 
-const String URI = "https://prabhu-chat.herokuapp.com/";
+//const String URI = "https://prabhu-chat.herokuapp.com/";
+const String URI = "http://192.168.0.102:3000/";
 
 class HomePage extends StatefulWidget {
   @override
